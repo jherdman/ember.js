@@ -13,7 +13,7 @@ import { A as emberA } from 'ember-runtime/system/native_array';
 import { registerKeyword, resetKeyword } from 'ember-htmlbars/tests/utils';
 import viewKeyword from 'ember-htmlbars/keywords/view';
 
-var trim = jQuery.trim;
+var trim = String.prototype.trim;
 var registry;
 var view;
 

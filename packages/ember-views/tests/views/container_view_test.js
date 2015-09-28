@@ -13,7 +13,7 @@ import getElementStyle from 'ember-views/tests/test-helpers/get-element-style';
 import { registerKeyword, resetKeyword } from 'ember-htmlbars/tests/utils';
 import viewKeyword from 'ember-htmlbars/keywords/view';
 
-var trim = jQuery.trim;
+var trim = String.prototype.trim;
 var container, registry, view, otherContainer, originalViewKeyword;
 
 QUnit.module('Ember.ContainerView', {

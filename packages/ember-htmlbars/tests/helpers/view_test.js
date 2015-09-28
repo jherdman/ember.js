@@ -28,7 +28,7 @@ import viewKeyword from 'ember-htmlbars/keywords/view';
 
 var view, originalLookup, registry, container, lookup, originalViewKeyword;
 
-var trim = jQuery.trim;
+var trim = String.prototype.trim;
 
 function firstGrandchild(view) {
   return get(get(view, 'childViews').objectAt(0), 'childViews').objectAt(0);

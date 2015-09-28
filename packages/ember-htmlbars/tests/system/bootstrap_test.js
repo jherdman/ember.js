@@ -6,7 +6,7 @@ import { runDestroy } from 'ember-runtime/tests/utils';
 import bootstrap from 'ember-htmlbars/system/bootstrap';
 import Application from 'ember-application/system/application';
 
-var trim = jQuery.trim;
+var trim = String.prototype.trim;
 
 var originalLookup = Ember.lookup;
 var lookup, App, view;

@@ -16,7 +16,7 @@ import { _loaded } from 'ember-runtime/system/lazy_load';
 import isEnabled from 'ember-metal/features';
 import { getDebugFunction, setDebugFunction } from 'ember-metal/debug';
 
-var trim = jQuery.trim;
+var trim = String.prototype.trim;
 
 var app, application, originalLookup, originalDebug;
 

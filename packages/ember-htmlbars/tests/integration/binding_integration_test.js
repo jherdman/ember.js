@@ -17,7 +17,7 @@ import viewKeyword from 'ember-htmlbars/keywords/view';
 
 var view, MyApp, originalLookup, lookup, originalViewKeyword;
 
-var trim = jQuery.trim;
+var trim = String.prototype.trim;
 
 QUnit.module('ember-htmlbars: binding integration', {
   setup() {

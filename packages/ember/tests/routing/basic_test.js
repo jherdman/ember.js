@@ -16,7 +16,7 @@ import { A as emberA } from 'ember-runtime/system/native_array';
 import NoneLocation from 'ember-routing/location/none_location';
 import HistoryLocation from 'ember-routing/location/history_location';
 
-var trim = jQuery.trim;
+var trim = String.prototype.trim;
 
 var Router, App, router, registry, container, originalLoggerError;
 

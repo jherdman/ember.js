@@ -10,7 +10,7 @@ import compile from 'ember-template-compiler/system/compile';
 import { runAppend, runDestroy } from 'ember-runtime/tests/utils';
 import { buildRegistry } from 'ember-routing-htmlbars/tests/utils';
 
-var trim = jQuery.trim;
+var trim = String.prototype.trim;
 
 var registry, container, top;
 
